@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "ramesh :: hi suresh how are you?"
+echo "hello ramesh i am fine what about you?"
+echo "i am good where are you?"
+echo "i am in hyderabad"
