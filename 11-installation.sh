@@ -10,7 +10,7 @@ then
 fi
 dnf install git -y  
 
-if [ $? -ne 0]
+if [ $? -ne 0 ]
    echo "Git is not installed going to install it"
    dnf install git -y
 else
