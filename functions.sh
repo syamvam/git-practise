@@ -9,7 +9,8 @@ VALIDATE(){
     then 
         echo "$2 is ... FAILED"
     else 
-        echo "$2 is.... success"    
+        echo "$2 is.... success"
+    fi        
 }
 
 if [ $USERID -ne 0 ]
@@ -37,7 +38,7 @@ if [ $? -ne 0 ]
 then
     echo "MySQL is not installed...going to install"
     dnf install mysql -y
-    VALIDATE $? "installing mysql"
+    VALIDATE $? "installing"
 else
     echo "MySQL is already installed..nothing to do"
 fi
